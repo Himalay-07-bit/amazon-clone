@@ -207,7 +207,7 @@ span{
 
 }
 .details-box{
-    background-color: #031a31;
+    background-color: #232f3e;
     color: #fff;
     height: 400px;
     width: 25%;
@@ -229,3 +229,92 @@ span{
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/** india**/
+.india{
+    display: flex;
+    background-color: #232f3e;
+    width: auto;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #3a4553;
+}
+.base{
+    display: flex; 
+    color: #999999; 
+    border: 1px solid white; 
+    padding: 5px;
+    margin-left: 50px;
+    border-radius: 3px; 
+    width: 100px;
+    font-size: 12px;
+}
+.base-logo{
+    background-image: url("../images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+   
+}
+/**amazon-sub**/
+.amazon-sub{
+    box-sizing: border-box;
+    background-color: #131a22;
+    height: 200px;
+    width: auto;
+    
+}
+
+.sub-box{
+    width: 150px;
+}
+.first-box{
+    display: flex;
+    height: 80px;
+    padding-top: 30px;
+    margin-left: 200px;
+}
+
+.second-box{
+    display: flex;
+    height: 80px;
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+.heading-sub{
+    color: #dddddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.list-sub{
+    color: #999999;
+    font-size: 12px;
+}
+
+.space{
+    width: 40px;
+    height: 50px;
+}
+/** condition box**/
+.condition{
+    background-color: #131a22;
+    height: 30px;
+    width: auto;
+    padding: 25px;
+}
+
+.first-line{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.second-line{
+    padding: 5px;
+    text-align:  center;
+    color: #fff;
+    font-size: 0.85rem;
+}
+
